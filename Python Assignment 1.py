@@ -10,6 +10,9 @@ Created on Fri May 21 17:50:50 2021
 t_Var = "Hello World"
 print (t_Var)
 
+# Print the variables memory address
+print(id(t_Var))
+
 # Changing the value of the variable
 t_Var = "Changed Hello World"
 print (t_Var)
@@ -41,6 +44,7 @@ print(16/2)
 
 # Favorite Number
 t_Num = 3
+print("My facvorite number is:",t_Num)
 print("My favorite number is: {first}".format(first=t_Num))
 
 # List of Name
